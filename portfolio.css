@@ -100,6 +100,53 @@ body{
 
 /*Footer*/
 
+.footer{
+  height: 7vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+.footer .rightpadding{
+  display: flex;
+  flex: 1;
+}
+
+.footer #copyright{
+  display: flex;
+  flex: 1;
+  font-size: 2vh;
+  justify-self: left;
+  margin-left: 1vw;
+}
+
+.footer #contact{
+  color: #EBEBEB;
+  font-size: 2vh;
+  display: flex;
+  flex: 1;
+}
+
+.footer #contact:hover{
+  color: #ff7b00;
+  transition: 200ms linear;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+/*End Footer*/
+
+
+
+
 .icon-linkedin {
   mask: url(images/svgs/icons8-linkedin-96.svg);
 }
@@ -110,10 +157,10 @@ body{
   mask: url(images/svgs/icons8-gmail-logo-96.svg);
 }
 .icon {
-  margin-top: 100px;
+  flex-direction: row;
   display: inline-block;
-  width: 14vh;
-  height: 14vh;
+  width: 5vh;
+  height: 5vh;
   background: rgb(255, 255, 255);
   mask-size: cover;
 }
