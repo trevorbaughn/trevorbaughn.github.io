@@ -9,6 +9,8 @@ body{
   color:#EBEBEB;
 }
 
+/*Header*/
+
 .header{
   position: fixed;
   display: flex;
@@ -17,6 +19,11 @@ body{
   height: 8vh;
   background-color: #ff7b00;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerblock{ /*makes sure nothing gets under the header*/
+  width: 100%;
+  height: 8vh;
 }
 
 .header .name{
@@ -85,4 +92,33 @@ body{
   color: #ff7b00;
   background-color: #191E26;
   transition: 200ms linear;
+}
+
+/*End Header*/
+
+
+
+/*Footer*/
+
+.icon-linkedin {
+  mask: url(images/svgs/icons8-linkedin-96.svg);
+}
+.icon-discord {
+  mask: url(images/svgs/icons8-discord-bubble-96.svg);
+}
+.icon-email {
+  mask: url(images/svgs/icons8-gmail-logo-96.svg);
+}
+.icon {
+  margin-top: 100px;
+  display: inline-block;
+  width: 14vh;
+  height: 14vh;
+  background: rgb(255, 255, 255);
+  mask-size: cover;
+}
+.icon:hover,
+.icon:focus {
+  transition: 300ms;
+  background: #ff7b00;
 }
