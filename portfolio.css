@@ -107,10 +107,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-
-
-
+  position: absolute;
+  bottom: 0;
 }
 
 .footer .rightpadding{
