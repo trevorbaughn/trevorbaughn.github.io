@@ -146,22 +146,27 @@ body{
 
 
 .icon-linkedin {
-  mask: url(images/svgs/icons8-linkedin-96.svg);
+  mask: url(images/svgs/linkedin.svg);
 }
 .icon-discord {
-  mask: url(images/svgs/icons8-discord-bubble-96.svg);
+  mask: url(images/svgs/discord.svg);
 }
 .icon-email {
-  mask: url(images/svgs/icons8-gmail-logo-96.svg);
+  mask: url(images/svgs/email.svg);
+}
+.icon-phone {
+  mask: url(images/svgs/phone.svg);
 }
 .icon {
   flex-direction: row;
   display: inline-block;
-  width: 5vh;
-  height: 5vh;
+  width: 4.5vh;
+  height: 4.5vh;
+  margin-left: 0.25vw;
   background: rgb(255, 255, 255);
   mask-size: cover;
 }
+
 .icon:hover,
 .icon:focus {
   transition: 300ms;
