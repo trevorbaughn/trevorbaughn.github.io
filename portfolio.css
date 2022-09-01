@@ -193,8 +193,8 @@ body{
 .projects img{
   width: 47vh;
   height: 38vh;
-  border: 0.15em solid #ff7b00;
-  border-radius: 5%;
+  border: 0.15em solid black;
+  border-radius: 2.5%;
 }
 
 .projects .proj .text{
