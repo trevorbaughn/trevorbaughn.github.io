@@ -107,7 +107,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -140,11 +140,6 @@ body{
   text-decoration: none;
 }
 
-/*End Footer*/
-
-
-
-
 .icon-linkedin {
   mask: url(images/svgs/linkedin.svg);
 }
@@ -163,7 +158,7 @@ body{
   width: 4vh;
   height: 4vh;
   margin-left: 0.25vw;
-  background: rgb(255, 255, 255);
+  background: #EBEBEB;
   mask-size: cover;
 }
 
@@ -172,3 +167,69 @@ body{
   transition: 300ms;
   background: #ff7b00;
 }
+
+/*End Footer*/
+
+
+/*Projects*/
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .proj{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 60vw;
+
+}
+
+.projects img{
+  width: 47vh;
+  height: 38vh;
+}
+
+.projects .proj .text{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-left: 1vw;
+}
+
+.projects .proj #project-title{
+  font-size: 5vh;
+  color: #ff7b00;
+}
+
+.projects .proj .project-info{
+  display: flex;
+  flex-direction: column;
+
+  color: #bebebe;
+  font-size: 2vh;
+  margin-bottom: 1vh;
+}
+
+.projects .proj #project-shortdesc{
+  font-size: 2vh;
+}
+
+.projects .proj #linkmore{
+  color: #bebebe;
+  text-decoration: none;
+  margin-top: 1vh;
+}
+
+.projects .proj #linkmore:hover{
+  transition: 100ms;
+  color: #ff7b00;
+}
+
+/*End Projects*/
