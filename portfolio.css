@@ -193,6 +193,8 @@ body{
 .projects img{
   width: 47vh;
   height: 38vh;
+  border: 0.15em solid #ff7b00;
+  border-radius: 5%;
 }
 
 .projects .proj .text{
@@ -225,6 +227,7 @@ body{
   color: #bebebe;
   text-decoration: none;
   margin-top: 1vh;
+  font-size: 2vh;
 }
 
 .projects .proj #linkmore:hover{
