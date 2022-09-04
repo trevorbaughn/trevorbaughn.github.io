@@ -7,6 +7,8 @@
 body{
   background-color: #191E26;
   color:#EBEBEB;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Header*/
@@ -107,8 +109,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  bottom: 0;
 }
 
 .footer .rightpadding{
@@ -149,9 +149,10 @@ body{
 /*.icon-phone {
   mask: url(images/svgs/phone.svg);
 }
+*/
 .icon-discord {
   mask: url(images/svgs/discord.svg);
-}*/
+}
 .icon {
   display: inline-block;
   background-color: #EBEBEB;
@@ -171,6 +172,70 @@ body{
 }
 
 /*End Footer*/
+
+
+/*Contact*/
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headshotcontacts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.headshotcontacts .contact-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactme{
+  font-size: 4vh;
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.contact-text #contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contact #text{ 
+  text-decoration: none;
+  color: #EBEBEB;
+  margin-left: 0.5vw;
+  font-size: 2.5vh;
+
+}
+
+#contact #text:hover{ 
+  transition: 300ms;
+  color: #ff7b00;
+}
+
+#headshot1 img{
+  height: 50vh;
+  margin-right: 2vw;
+  border-radius: 50%;
+  border: 0.25em solid black;
+  transform: scaleX(-1);
+}
+
+.headshotcontsicon{
+  width: 5vh;
+  height: 5vh;
+  margin-left: 0.25vw;
+}
+
+/*End Contact*/
 
 
 /*Projects*/
