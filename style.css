@@ -153,12 +153,8 @@ body{
   mask: url(images/svgs/discord.svg);
 }*/
 .icon {
-  flex-direction: row;
   display: inline-block;
-  width: 4vh;
-  height: 4vh;
-  margin-left: 0.25vw;
-  background: #EBEBEB;
+  background-color: #EBEBEB;
   mask-size: cover;
 }
 
@@ -166,6 +162,12 @@ body{
 .icon:focus {
   transition: 300ms;
   background: #ff7b00;
+}
+
+.footericon{
+  width: 4vh;
+  height: 4vh;
+  margin-left: 0.25vw;
 }
 
 /*End Footer*/
