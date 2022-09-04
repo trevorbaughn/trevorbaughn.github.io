@@ -29,7 +29,6 @@ body{
 }
 
 .header .name{
-  flex: initial;
   flex-direction: column;
   display: flex;
   background-color: black;
