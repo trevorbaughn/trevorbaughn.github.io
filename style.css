@@ -98,7 +98,23 @@ body{
 
 /*End Header*/
 
-
+/*Icons*/
+.icon-linkedin {
+  mask: url(images/svgs/linkedin.svg);
+}
+.icon-email {
+  mask: url(images/svgs/email.svg);
+}
+/*.icon-phone {
+  mask: url(images/svgs/phone.svg);
+}
+*/
+.icon-discord {
+  mask: url(images/svgs/discord.svg);
+}
+.icon-instagram {
+  mask: url(images/svgs/instagram.svg);
+}
 
 /*Footer*/
 
@@ -140,19 +156,6 @@ body{
   text-decoration: none;
 }
 
-.icon-linkedin {
-  mask: url(images/svgs/linkedin.svg);
-}
-.icon-email {
-  mask: url(images/svgs/email.svg);
-}
-/*.icon-phone {
-  mask: url(images/svgs/phone.svg);
-}
-*/
-.icon-discord {
-  mask: url(images/svgs/discord.svg);
-}
 .icon {
   display: inline-block;
   background-color: #EBEBEB;
@@ -202,17 +205,11 @@ body{
   flex: 1;
 }
 
-
 .headshotcontacts .contact-text{
-  transform: scaleX(-1);
-  position: relative;
   display: flex;
   flex: 1;
-  flex-direction: row;
+  transform: scaleX(-1);
   justify-content: center;
-}
-
-.headshotcontacts .contact-text .container{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -226,7 +223,7 @@ body{
   font-weight: bold;
 }
 
-.headshotcontacts .contacts{
+.headshotcontacts .contact-text .contacts{
   display: flex;
   width: 15vw;
   flex-direction: row;
