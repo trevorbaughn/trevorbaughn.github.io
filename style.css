@@ -15,6 +15,7 @@ body{
 
 .header{
   position: fixed;
+  z-index: 2;
   display: flex;
   justify-content: left;
   width: 100%;
@@ -182,55 +183,59 @@ body{
 }
 
 .headshotcontacts{
+  height: 85vh;
+  width: 75vw;
+  background: url(images/headshot2.png) no-repeat 0 0;
+  background-size: cover;
+  transform: scaleX(-1);
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  flex-direction: row-reverse;
 }
 
+.headshotcontacts .middlepadding{
+  display: flex;
+  flex: 1;
+}
+
+.headshotcontacts .rightpadding{
+  display: flex;
+  flex: 1;
+}
+
+
 .headshotcontacts .contact-text{
+  transform: scaleX(-1);
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headshotcontacts .contact-text .container{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #contactme{
+  margin-bottom: 1vh;
   font-size: 4vh;
   color: #ff7b00;
   font-weight: bold;
 }
 
-.contact-text #contact{
+.headshotcontacts .contacts{
   display: flex;
+  width: 15vw;
   flex-direction: row;
-  align-items: center;
-}
-
-#contact #text{ 
-  text-decoration: none;
-  color: #EBEBEB;
-  margin-left: 0.5vw;
-  font-size: 2.5vh;
-
-}
-
-#contact #text:hover{ 
-  transition: 300ms;
-  color: #ff7b00;
-}
-
-#headshot1 img{
-  height: 50vh;
-  margin-right: 2vw;
-  border-radius: 50%;
-  border: 0.25em solid black;
-  transform: scaleX(-1);
+  justify-content: space-between;
 }
 
 .headshotcontsicon{
-  width: 5vh;
-  height: 5vh;
+  width: 6vh;
+  height: 6vh;
   margin-left: 0.25vw;
 }
 
