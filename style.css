@@ -85,9 +85,7 @@ body{
 .header .navlist a{
   text-decoration: none;
   height: 100%;
-  display: flex;
   flex: 1;
-  text-align: center;
 }
 
 #navbutton:hover{
@@ -240,6 +238,42 @@ body{
 
 
 /*Projects*/
+
+.sortcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.sortlist{
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  height: 5vh;
+  background-color: #ff7b00;
+}
+
+.sortlist a{
+  text-decoration: none;
+  text-align: center;
+  flex: 1;
+}
+
+#sortbutton{
+  font-size: 2vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EBEBEB;
+  height: 100%;
+}
+
+#sortbutton:hover{
+  color: #ff7b00;
+  background-color: #191E26;
+  transition: 200ms linear;
+}
 
 .projects{
   display: flex;
