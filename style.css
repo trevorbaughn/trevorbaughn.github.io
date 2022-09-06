@@ -98,20 +98,20 @@ body{
 
 /*Icons*/
 .icon-linkedin {
-  mask: url(images/svgs/linkedin.svg);
+  mask: url(/images/svgs/linkedin.svg);
 }
 .icon-email {
-  mask: url(images/svgs/email.svg);
+  mask: url(/images/svgs/email.svg);
 }
 /*.icon-phone {
   mask: url(images/svgs/phone.svg);
 }
 */
 .icon-discord {
-  mask: url(images/svgs/discord.svg);
+  mask: url(/images/svgs/discord.svg);
 }
 .icon-instagram {
-  mask: url(images/svgs/instagram.svg);
+  mask: url(/images/svgs/instagram.svg);
 }
 
 /*Footer*/
