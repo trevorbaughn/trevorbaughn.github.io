@@ -36,7 +36,25 @@
     <div class="contact">
         <div class="headshotcontacts">
             <div class="contact-text">
-                <p id="contactme">~ Contact Me! ~</p>
+                <p id="contactme">Contact Me!</p>
+                <div class="contactform">
+                    <form action="action_page.php">
+                        <div class="name">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        </div>
+
+                        <label for="organization">Organization</label>
+                        <input type="text" id="organization" name="organizationname" placeholder="Your organization...">
+
+                        <label for="content">Content</label>
+                        <textarea id="content" name="content" placeholder="Write something.." style="height:20vh"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
                 <div class="contacts">
                     <a href="https://www.linkedin.com/in/trevor-baughn/">
                         <span class="icon headshotcontsicon icon-linkedin"></span>

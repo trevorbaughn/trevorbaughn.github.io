@@ -212,13 +212,71 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: rgba(0,0,0,0.5);
 }
 
 #contactme{
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
   font-size: 4vh;
   color: #ff7b00;
   font-weight: bold;
+}
+
+.headshotcontacts .contactform{
+  background-color: rgba(0,0,0,0.3);
+  color: #ebebeb;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 0.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2vh;
+  width: 15vw;
+  height: 40vh;
+}
+
+.headshotcontacts .contactform form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-size: 2vh;
+}
+
+.headshotcontacts .contactform .name{
+  display: flex;
+  flex-direction: column;
+}
+
+.headshotcontacts .contactform input[type="text"], textarea{
+  background-color: #ebebeb;
+  margin-bottom: 1vh;
+  resize: none;
+  border: 0.15em solid black;
+  border-radius: 0.25em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2vh;
+}
+
+.headshotcontacts .contactform input[type="submit"]{
+  border: none;
+  border-radius: 0.5em;
+  background-color: black;
+  color: #bebebe;
+  font-weight: bold;
+  font-size: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 5vh;
+  width: 5em;
+}
+
+.headshotcontacts .contactform input[type="submit"]:hover{
+  transition: 200ms linear;
+  color: #ff7b00;
+  cursor: pointer;
+  background-color: #191E26;
 }
 
 .headshotcontacts .contact-text .contacts{
