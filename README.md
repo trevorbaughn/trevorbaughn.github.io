@@ -1,2 +1,2 @@
-# thegoatisbetter.github.io
+# trevorbaughn.github.io
 Portfolio Website
