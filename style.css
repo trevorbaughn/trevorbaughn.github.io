@@ -431,6 +431,9 @@ body{
   font-style: italic;
   color: #ebebeb;
   font-weight: bold;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
 }
 
 .objectives #objective-hr{
