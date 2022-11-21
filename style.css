@@ -94,6 +94,29 @@ body{
   transition: 200ms linear;
 }
 
+@media only screen and (max-width: 600px){
+  .header .name{
+    width: 50vw;
+    display: flex;
+    background-color: black;
+    height: 100%;
+    flex-direction: row;
+  }
+
+  .header .name #Trevor{
+    margin-top: 1vh;
+    display: flex;
+    flex: 1;
+    font-size: 2.5vh;
+    justify-content: left;
+    font-weight: bold;
+  }
+
+  .header .name #Titles{
+    margin-top: 1vh;
+  }
+}
+
 /*End Header*/
 
 /*Icons*/
@@ -413,6 +436,12 @@ body{
 .projects .proj #linkmore:hover{
   transition: 100ms;
   color: #ff7b00;
+}
+
+@media only screen and (max-width: 600px){
+  .projects .proj{
+    flex-direction: column;
+  }
 }
 
 /*End Projects*/
