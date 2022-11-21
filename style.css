@@ -445,3 +445,86 @@ body{
   margin-top: 4vh;
   margin-bottom: 1vh;
 }
+
+@font-face {
+  font-family: glacialIndifference-bold;
+  src: url(images/projects/sip/GlacialIndifference-Bold.otf);
+}
+
+@font-face {
+  font-family: glacialIndifference;
+  src: url(images/projects/sip/GlacialIndifference-Regular.otf);
+}
+
+
+.SIP{
+  background-color: #21133d;
+  display: flexbox;
+  align-items: center;
+  font-family: glacialIndifference;
+}
+
+.SIP #Title{
+  display: flex;
+  justify-content: center;
+  font-size: 7vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-family: glacialIndifference-bold;
+}
+
+.SIP #Slogan{
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  margin-top: 6vh;
+  margin-bottom: 3vh;
+}
+
+.SIP .responsibilitybar{
+  display: flex;
+  justify-content: center;
+}
+
+.SIP .responsibilitybar img{
+  width: 17vw;
+  height: 4vh;
+}
+
+.SIP .responsibilitybar #top{
+  margin-top: 5vh;
+}
+
+.SIP #sip-title-hr{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  color: #ff7b00;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.SIP #innovation-claim-title{
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  font-family: glacialIndifference-bold;
+  color: #e14566;
+}
+
+.SIP #innovation-claim{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vh;
+  margin-top: 1vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+}
+
+.SIP #sip-hr{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  color: #ff7b00;
+  margin-top: 5vh;
+  margin-bottom: 21.75vh; /*Change to vh 5 when updating with more content... this just pushed the footer down... */
+}
