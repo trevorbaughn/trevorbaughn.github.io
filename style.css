@@ -401,3 +401,44 @@ body{
 }
 
 /*End Projects*/
+
+/*Start UAT Boards & SIP*/
+
+.objectives{
+  display: flexbox;
+}
+
+.objectives #degree{
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  color: #ff7b00;
+
+}
+
+.objectives #degree-hr{
+  margin-bottom: 3vh;
+  margin-top: 3vh;;
+}
+
+.objectives #objective{
+  display: flex;
+  justify-content: center;
+  font-size: 2.75vh;
+  font-style: italic;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.objectives #objective-hr{
+  margin-bottom: 5vh;
+  margin-top: 3vh;;
+}
+
+.objectives .projects .proj{
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+}
