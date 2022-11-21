@@ -338,10 +338,25 @@ body{
   transition: 200ms linear;
 }
 
-.projects{
+.outside-background{
+  background-color: black;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;  
+  background-color: #191E26;
+  width: 65vw;
   align-items: center;
+}
+
+.projects #project-hr{
+  color: #ff7b00;
+  width: 45vw;
 }
 
 .projects .proj{
