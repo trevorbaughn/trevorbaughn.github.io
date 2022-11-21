@@ -402,7 +402,7 @@ body{
 
 /*End Projects*/
 
-/*Start UAT Boards & SIP*/
+/*UAT Boards*/
 
 .objectives{
   display: flexbox;
@@ -445,6 +445,10 @@ body{
   margin-top: 4vh;
   margin-bottom: 1vh;
 }
+
+/*End UAT Boards*/
+
+/*UAT SIP*/
 
 @font-face {
   font-family: glacialIndifference-bold;
@@ -526,5 +530,18 @@ body{
   margin-right: 25vw;
   color: #ff7b00;
   margin-top: 5vh;
-  margin-bottom: 21.75vh; /*Change to vh 5 when updating with more content... this just pushed the footer down... */
+  margin-bottom: 5vh;
 }
+
+.SIP #work-in-progress{ /*Temporary*/
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vh;
+  margin-top: 10.75vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+/*End UAT SIP*/
