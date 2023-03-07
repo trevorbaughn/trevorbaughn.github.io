@@ -369,11 +369,17 @@ body{
   flex-direction: column;
 }
 
+.projects .page-title{
+  color: #EBEBEB;
+  font-size: 5vh;
+  margin-top: 2vh;
+}
+
 .projects{
   display: flex;
   flex-direction: column;  
   background-color: #191E26;
-  width: 65vw;
+  width: 60vw;
   align-items: center;
 }
 
@@ -387,15 +393,15 @@ body{
   flex-direction: row;
   flex: 1;
 
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  width: 60vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 55vw;
 
 }
 
 .projects img{
-  width: 47vh;
-  height: 38vh;
+  width: 35vh;
+  height: 28vh;
   border: 0.2em solid black;
   border-radius: 2.5%;
 }
@@ -409,7 +415,7 @@ body{
 }
 
 .projects .proj #project-title{
-  font-size: 5vh;
+  font-size: 4vh;
   color: #ff7b00;
 }
 
@@ -426,22 +432,42 @@ body{
   font-size: 2vh;
 }
 
-.projects .proj #linkmore{
+.projects .proj .links{
+  display: flex;
+  flex-direction: row;
+}
+
+.projects .proj .links #linkmore{
   color: #bebebe;
   text-decoration: none;
   margin-top: 1vh;
   font-size: 2vh;
 }
 
-.projects .proj #linkmore:hover{
+.projects .proj .links #linkmore:hover{
   transition: 100ms;
   color: #ff7b00;
+}
+
+.projects .proj .links #linkmoreseparator{
+  color: #bebebe;
+  text-decoration: none;
+  margin-top: 1vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  font-size: 2vh;
 }
 
 @media only screen and (max-width: 600px){
   .projects .proj{
     flex-direction: column;
     align-items: center;
+  }
+
+  .projects .proj .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
