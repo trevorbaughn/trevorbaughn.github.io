@@ -473,6 +473,53 @@ body{
 
 /*End Projects*/
 
+/*Etiam*/
+.projectbackground{
+  background-color: #181818;
+  background-image: url("/images/projects/etiam/stars.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projectpagecontent{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  background-color: #2f722f2f;
+}
+
+.fullbanner img{
+  width: 50vw;
+}
+
+.projectpagecontent #title{
+  font-size: 5vh;
+  margin-top: 1vh;
+  align-self: center;
+
+  color: #31FF00;
+}
+
+.projectpagecontent #body{
+  font-size: 2vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vh;
+  color: #5d9251;
+}
+
+.projectpagecontent #construction{
+  font-size: 2vh;
+  align-self: center;
+  margin-top: 3vh;
+  color: #31FF00;
+}
+/*End Etiam*/
+
+
+
 /*UAT Boards*/
 
 .objectives{
