@@ -459,6 +459,10 @@ body{
 }
 
 @media only screen and (max-width: 600px){
+  .projects{
+    width: 100vw;
+  }
+  
   .projects .proj{
     flex-direction: column;
     align-items: center;
