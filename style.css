@@ -499,7 +499,10 @@ body{
 }
 
 .etiampagecontent .project-info{
+  font-size: 2vh;
   color: #31FF00;
+  margin-left: 1vw;
+  margin-top: 1vh;
 }
 
 .etiampagecontent #title{
@@ -550,6 +553,77 @@ body{
 
 /*End Etiam*/
 
+/*WorldView*/
+.worldviewbackground{
+  background-color: #AC3232;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.worldviewcontent{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  background-color: #000000;
+}
+
+
+.worldviewcontent .project-info{
+  color: #5FCDEF;
+  font-size: 2vh;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+
+.worldviewcontent #title{
+  font-size: 5vh;
+  margin-top: 1vh;
+  align-self: center;
+
+  color: #5FCDEF;
+}
+
+.worldviewcontent #itchlink{
+  align-self: center;
+  margin-top: 2vh;
+}
+
+.worldviewcontent #body{
+  font-size: 2vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vh;
+  color: #ffffff;
+}
+
+.worldviewcontent #worldview-hr{
+  color: #5FCDEF;
+  width: 45vw;
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.worldviewcontent #heading{
+  font-size: 2.5vh;
+  align-self: center;
+  margin-top: 3vh;
+  color: #5FCDEF;
+}
+.worldviewcontent .hovertext{
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.worldviewcontent .hovertext  #ship{
+  height: 15vh;
+}
+
+
+/*End WorldView*/
 
 
 /*UAT Boards*/
