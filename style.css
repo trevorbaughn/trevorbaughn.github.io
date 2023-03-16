@@ -625,6 +625,77 @@ body{
 
 /*End WorldView*/
 
+/*Phantasmagoria '42*/
+.phantasmagoria42background{
+  background-color: #306230;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.phantasmagoria42content{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  background-color: #0f380f;
+}
+
+
+.phantasmagoria42content .project-info{
+  color: #8bac0f;
+  font-size: 2vh;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+
+.phantasmagoria42content #title{
+  font-size: 5vh;
+  margin-top: 1vh;
+  align-self: center;
+
+  color: #8bac0f;
+}
+
+.phantasmagoria42content #itchlink{
+  align-self: center;
+  margin-top: 2vh;
+}
+
+.phantasmagoria42content #body{
+  font-size: 2vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vh;
+  color: #9bbc0f;
+}
+
+.phantasmagoria42content #phantasmagoria42-hr{
+  color: #8bac0f;
+  width: 45vw;
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.phantasmagoria42content #heading{
+  font-size: 2.5vh;
+  align-self: center;
+  margin-top: 3vh;
+  color: #8bac0f;
+}
+.phantasmagoria42content .hovertext{
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.phantasmagoria42content .hovertext  #ship{
+  height: 15vh;
+}
+
+
+/*End WorldView*/
 
 /*UAT Boards*/
 
