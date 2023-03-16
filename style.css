@@ -695,7 +695,79 @@ body{
 }
 
 
-/*End WorldView*/
+/*End Phantasmagoria '42*/
+
+/*Saucer*/
+.saucerbackground{
+  background-color: #0A0A0F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.saucercontent{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50vw;
+  background-color: #756D57;
+}
+
+
+.saucercontent .project-info{
+  color: #FFFFFF;
+  font-size: 2vh;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+
+.saucercontent #title{
+  font-size: 5vh;
+  margin-top: 1vh;
+  align-self: center;
+
+  color: #FFFFFF;
+}
+
+.saucercontent #itchlink{
+  align-self: center;
+  margin-top: 2vh;
+}
+
+.saucercontent #body{
+  font-size: 2vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vh;
+  color: #FFFFFF;
+}
+
+.saucercontent #saucer-hr{
+  color: #FFFFFF;
+  width: 45vw;
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.saucercontent #heading{
+  font-size: 2.5vh;
+  align-self: center;
+  margin-top: 3vh;
+  color: #FFFFFF;
+}
+.saucercontent .hovertext{
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.saucercontent .hovertext  #ship{
+  height: 15vh;
+}
+
+
+/*End Saucer*/
 
 /*UAT Boards*/
 
