@@ -478,27 +478,31 @@ body{
 /*End Projects*/
 
 /*Etiam*/
-.projectbackground{
-  background-color: #181818;
+.etiambackground{
+  background-color: #0a0a0F;
   background-image: url("/images/projects/etiam/stars.png");
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.projectpagecontent{
+.etiampagecontent{
   display: flex;
   flex-direction: column;
   
   width: 50vw;
-  background-color: #2f722f2f;
+  background-color: #0a0a0Fd3;
 }
 
 .fullbanner img{
   width: 50vw;
 }
 
-.projectpagecontent #title{
+.etiampagecontent .project-info{
+  color: #31FF00;
+}
+
+.etiampagecontent #title{
   font-size: 5vh;
   margin-top: 1vh;
   align-self: center;
@@ -506,7 +510,12 @@ body{
   color: #31FF00;
 }
 
-.projectpagecontent #body{
+.etiampagecontent #itchlink{
+  align-self: center;
+  margin-top: 2vh;
+}
+
+.etiampagecontent #body{
   font-size: 2vh;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -514,12 +523,31 @@ body{
   color: #5d9251;
 }
 
-.projectpagecontent #construction{
-  font-size: 2vh;
+.etiampagecontent #etiam-hr{
+  color: #31FF00;
+  width: 45vw;
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.etiampagecontent #heading{
+  font-size: 2.5vh;
   align-self: center;
   margin-top: 3vh;
   color: #31FF00;
 }
+.etiampagecontent .hovertext{
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.etiampagecontent .hovertext  #ship{
+  height: 15vh;
+}
+
+
 /*End Etiam*/
 
 
