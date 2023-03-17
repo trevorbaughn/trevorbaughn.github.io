@@ -466,6 +466,11 @@ body{
   .projects .proj{
     flex-direction: column;
     align-items: center;
+    width: 85vw;
+  }
+
+  .projects .proj #project-title{
+    align-self: center;
   }
 
   .projects .proj .links{
