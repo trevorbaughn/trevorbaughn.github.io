@@ -555,6 +555,19 @@ body{
   height: 15vh;
 }
 
+@media only screen and (max-width: 600px){
+  .etiampagecontent{
+    width: 100vw;
+  }
+
+  .fullbanner img{
+    width: 100vw;
+  }
+
+  .etiampagecontent #itchlink{
+    width: 100vw;
+  }
+}
 
 /*End Etiam*/
 
@@ -627,6 +640,15 @@ body{
   height: 15vh;
 }
 
+@media only screen and (max-width: 600px){
+  .worldviewcontent{
+    width: 100vw;
+  }
+
+  .worldviewcontent #itchlink{
+    width: 100vw;
+  }
+}
 
 /*End WorldView*/
 
@@ -699,7 +721,15 @@ body{
   height: 15vh;
 }
 
+@media only screen and (max-width: 600px){
+  .phantasmagoria42content{
+    width: 100vw;
+  }
 
+  .phantasmagoria42content #itchlink{
+    width: 100vw;
+  }
+}
 /*End Phantasmagoria '42*/
 
 /*Saucer*/
@@ -771,7 +801,11 @@ body{
   height: 15vh;
 }
 
-
+@media only screen and (max-width: 600px){
+  .saucercontent{
+    width: 100vw;
+  }
+}
 /*End Saucer*/
 
 /*UAT Boards*/
