@@ -810,8 +810,26 @@ body{
   margin-top: 1vh;
 }
 
-.saucercontent img {
-  width: 0px;
+.saucercontent .no-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.saucercontent .no-mobile img {
+  height: 0px;
+  justify-self: center;
+}
+
+.saucercontent img{
+  width: 25vw;
+  justify-self: center;
+}
+
+.saucercontent .vertical-image img{
+  margin-top: 1vh;
+  height: 50vh;
+  width: auto;
   justify-self: center;
 }
 
@@ -834,8 +852,8 @@ body{
     margin-top: 1vh;
   }
 
-  .saucercontent img {
-    width: 60vw;
+  .saucercontent .no-mobile img {
+    height: 50vw;
     justify-self: center;
   }
 }

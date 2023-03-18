@@ -45,31 +45,83 @@
             <p id="title">Saucer</p>
 
             <p id="body">
-                &emsp;Saucer is a fast-paced dodging game that makes itself unique by limiting how much you can go in each direction at once using a "gas" mechanic. 
+                &emsp;Saucer is a fast-paced dodging bullet-hell game that makes itself unique by limiting how much you can go in each direction at once using a "gas" mechanic. 
                 This mechanic would keep things interesting by making it so you could not abuse the spawning velocities of the "asteroids".
             </p>
 
             <iframe src="https://openprocessing.org/sketch/839197/embed/" width="848" height="480" id="itchlink"></iframe>
 
+            <div class="no-mobile">
+                <a href="https://openprocessing.org/sketch/839197" id="no-mobile">
+                    <img src="/images/projects/saucer/saucerbanner.png" alt="Saucer Cover Banner">
+                </a>
+                <p id="no-mobile-text">The webgame <em>Saucer</em> is not mobile compatible.
+                    Please use a desktop computer or laptop to enjoy <em>Saucer</em>.</p>
+            </div>
             
-            <a href="https://openprocessing.org/sketch/839197" id="no-mobile">
-                <img src="/images/projects/saucer/saucerbanner.png" alt="Saucer Cover Banner">
-            </a>
-            <p id="no-mobile-text">The webgame <em>Saucer</em> is not mobile compatible.
-                Please use a desktop computer or laptop to enjoy <em>Saucer</em>.</p>
 
             <hr id="saucer-hr">
             
             <p id="body">
-                &emsp;My role in the development of <em>Saucer</em> was that of a middle-college student who had 10 hours to burn.  I did this entirely on my own, save for a 
-                little help with making sure the trigonometry was perfect.  I would later do some slight polish as people had fun and started competing at might high school.
+                &emsp;My role in the development of <em>Saucer</em> was that of a middle-college student who had 10 hours to burn.  I did this entirely on my own within that time.  I would later do some slight polish as people had fun and started competing at my high school.
             </p>
 
             <p id="heading">
                 The Player Controls
             </p>
 
-            
+            <p id="body">
+                &emsp;Given the short development time and my lack of experience at the time (my first time scripting w/o nodes), there isn't much of interest here.
+                What <em>is</em> of interest here is how the unconventional "gas" system came to be.  This has to do with player controls.
+            </p>
+
+            <p id="body">
+                &emsp;Originally, I wanted to mess around with a control system similar to the classic arcade game, <em>Asteroid</em>.
+                To this effect, I put together a prototype featuring a triangle for the player, that, like in the final game, would wrap around the screen.
+                It's notable that in this prototype, the player could only go forwards and turn.
+            </p>
+
+            <p id="body">
+                &emsp;Unfortunately, the trig didn't work out and the ship's turning would be offeset from the way it moves forward.
+                This is most visible from the start when you press forward in the prototype, where the ship will slowly go up and right instead of just up.
+            </p>
+
+            <div class="vertical-image">
+                <span class="hovertext" title="The first Saucer prototype ship inches to the right when pressing up...">
+                    <img id="saucer" src="/images/projects/saucer/spaceshipPrototype-straight.gif" alt="The first Saucer prototype ship inching to the right when pressing up.">
+                </span>
+            </div>
+
+            <p id="body">
+                &emsp;Additionally, if you tried to go forward while turning, the direction moving forward would only update roughly every 90 degrees... but would also shift
+                towards the opposite end you were turning.  This was also less than optimal.
+            </p>
+
+            <span class="hovertext" title="The first Saucer prototype ship goes in a square shape when pressing diagonally...">
+                <img id="saucer" src="/images/projects/saucer/spaceshipPrototype.gif" alt="The first Saucer prototype ship going in a square shape when pressing diagonally.">
+            </span>
+
+            <p id="body">
+                &emsp;With this, I decided to go with a more conventional Up-Down-Left-Right movement system, while also making the velocity a bit less crazy to navigate with,
+                resulting in the movement seen in the current game.  I felt I wanted to try to do something new with this though... given it's now rather conventional nature.
+            </p>
+
+            <p id="body">
+                &emsp;What I would come up with is the "gas" system.  You could only press each button for a certain amount of time, before you had to effectively wait a second
+                for it to recharge before you could go in that direction again.  This limited the amount of movement you could do going in a single direction and encouraged
+                varied movement patterns.  I liked it.
+            </p>
+
+            <span class="hovertext" title="Saucer Now">
+                <img id="saucer" src="/images/projects/saucer/saucer.gif" alt="Saucer as it is now.">
+            </span>
+
+            <p id="body">
+                &emsp;Add in the "asteroids" and introduce incrementing spawn rates, a timer, and some difficulty modes, and you've got the <em>Saucer</em> of today.
+                I also made sure that asteroids couldn't be too close to the same size or color as the player, so as to prevent confusion. 
+                With the reception it got at my high school I was able to get a lot of playtesting in during lunch where people would have fun competing.  I used that to
+                introduce some bugfixes, tweaks, and a secret "Hell" difficulty (hidden on the title screen).
+            </p>
 
             <hr id="saucer-hr">
 
