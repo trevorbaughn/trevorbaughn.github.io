@@ -638,9 +638,19 @@ body{
   height: 15vh;
 }
 
+.worldviewcontent img{
+  width: 50vw;
+  justify-self: center;
+}
+
 @media only screen and (max-width: 600px){
   .worldviewcontent{
     width: 100vw;
+  }
+
+  .worldviewcontent img{
+    width: 90vw;
+    justify-self: center;
   }
 
   .worldviewcontent #itchlink{
