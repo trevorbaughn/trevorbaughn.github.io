@@ -803,6 +803,12 @@ body{
   .saucercontent{
     width: 100vw;
   }
+
+  .saucercontent iframe{
+    width: 0px;
+    height: 0px;
+    color: #00000000;
+  }
 }
 /*End Saucer*/
 
