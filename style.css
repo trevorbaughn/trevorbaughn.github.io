@@ -744,11 +744,14 @@ body{
   
   width: 50vw;
   background-color: #756D57;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .saucercontent .project-info{
   color: #FFFFFF;
+  align-self: baseline;
   font-size: 2vh;
   margin-left: 1vw;
   margin-top: 1vh;
@@ -799,6 +802,19 @@ body{
   height: 15vh;
 }
 
+.saucercontent #no-mobile-text{
+  width: 95vw;
+  font-size: 0px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+
+.saucercontent img {
+  width: 0px;
+  justify-self: center;
+}
+
 @media only screen and (max-width: 600px){
   .saucercontent{
     width: 100vw;
@@ -808,6 +824,19 @@ body{
     width: 0px;
     height: 0px;
     color: #00000000;
+  }
+
+  .saucercontent #no-mobile-text{
+    width: 95vw;
+    font-size: 2vh;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 1vh;
+  }
+
+  .saucercontent img {
+    width: 60vw;
+    justify-self: center;
   }
 }
 /*End Saucer*/
