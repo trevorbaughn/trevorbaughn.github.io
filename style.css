@@ -100,7 +100,7 @@ body{
     display: flex;
     background-color: black;
     height: 100%;
-    flex-direction: row;
+    white-space: nowrap;
   }
 
   .header .name #Trevor{
