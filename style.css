@@ -725,8 +725,33 @@ body{
   margin-bottom: 2vh;
 }
 
-.phantasmagoria42content .hovertext  #ship{
-  height: 15vh;
+.phantasmagoria42content .rowpics{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.phantasmagoria42content .butterfly{
+  align-self: center;
+  margin-top: 2vh;
+}
+
+.phantasmagoria42content .butterfly img{
+  width: 7.5vw;
+}
+
+.phantasmagoria42content .rowpics img{
+  width: 15vw;
+}
+
+.phantasmagoria42content .fullscreengif{
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.phantasmagoria42content .fullscreengif img{
+  width: 45vw;
 }
 
 @media only screen and (max-width: 600px){
