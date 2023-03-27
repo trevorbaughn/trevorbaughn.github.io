@@ -46,7 +46,7 @@ body{
   margin-top: 1vh;
   display: flex;
   flex: 1;
-  font-size: 3vh;
+  font-size: 27px;
   justify-content: left;
   font-weight:bold;
 }
@@ -56,7 +56,7 @@ body{
   display: flex;
   flex: 1;
   justify-content: left;
-  font-size: 2vh;
+  font-size: 18px;
   color: #ff7b00;
   font-style: italic;
 }
@@ -72,7 +72,7 @@ body{
 
 #navbutton{
   flex: 1;
-  font-size: 3vh;
+  font-size: 27px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -107,7 +107,7 @@ body{
     margin-top: 1vh;
     display: flex;
     flex: 1;
-    font-size: 2.5vh;
+    font-size: 27px;
     justify-content: left;
     font-weight: bold;
   }
@@ -161,14 +161,14 @@ body{
 .footer #copyright{
   display: flex;
   flex: 1;
-  font-size: 2vh;
+  font-size: 18px;
   justify-self: left;
   margin-left: 1vw;
 }
 
 .footer #contact{
   color: #EBEBEB;
-  font-size: 2vh;
+  font-size: 18px;
   display: flex;
   flex: 1;
 }
@@ -246,7 +246,7 @@ body{
 
 #contactme{
   margin-bottom: 2vh;
-  font-size: 4vh;
+  font-size: 36px;
   color: #ff7b00;
   font-weight: bold;
 }
@@ -270,7 +270,7 @@ body{
   flex-direction: column;
   width: 100%;
   height: 100%;
-  font-size: 2vh;
+  font-size: 18px;
 }
 
 .headshotcontacts .contactform .name{
@@ -285,7 +285,7 @@ body{
   border: 0.15em solid black;
   border-radius: 0.25em;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2vh;
+  font-size: 18px;
 }
 
 .headshotcontacts .contactform input[type="submit"]{
@@ -294,7 +294,7 @@ body{
   background-color: black;
   color: #bebebe;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   height: 5vh;
   width: 5em;
@@ -369,7 +369,7 @@ body{
 
 .projects .page-title{
   color: #EBEBEB;
-  font-size: 5vh;
+  font-size: 40px;
   margin-top: 2vh;
 }
 
@@ -413,7 +413,7 @@ body{
 }
 
 .projects .proj #project-title{
-  font-size: 4vh;
+  font-size: 40px;
   color: #ff7b00;
 }
 
@@ -422,12 +422,12 @@ body{
   flex-direction: column;
 
   color: #bebebe;
-  font-size: 2vh;
+  font-size: 18px;
   margin-bottom: 1vh;
 }
 
 .projects .proj #project-shortdesc{
-  font-size: 2vh;
+  font-size: 18px;
 }
 
 .projects .proj .links{
@@ -439,7 +439,7 @@ body{
   color: #bebebe;
   text-decoration: none;
   margin-top: 1vh;
-  font-size: 2vh;
+  font-size: 18px;
 }
 
 .projects .proj .links #linkmore:hover{
@@ -453,7 +453,7 @@ body{
   margin-top: 1vh;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
-  font-size: 2vh;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){
@@ -502,14 +502,14 @@ body{
 }
 
 .etiampagecontent .project-info{
-  font-size: 2vh;
+  font-size: 18px;
   color: #31FF00;
   margin-left: 1vw;
   margin-top: 1vh;
 }
 
 .etiampagecontent #title{
-  font-size: 5vh;
+  font-size: 40px;
   margin-top: 1vh;
   align-self: center;
 
@@ -522,7 +522,7 @@ body{
 }
 
 .etiampagecontent #body{
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 1vh;
@@ -538,7 +538,7 @@ body{
 }
 
 .etiampagecontent #heading{
-  font-size: 2.5vh;
+  font-size: 27px;
   align-self: center;
   margin-top: 3vh;
   color: #31FF00;
@@ -588,13 +588,13 @@ body{
 
 .worldviewcontent .project-info{
   color: #5FCDEF;
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 1vw;
   margin-top: 1vh;
 }
 
 .worldviewcontent #title{
-  font-size: 5vh;
+  font-size: 40px;
   margin-top: 1vh;
   align-self: center;
 
@@ -607,7 +607,7 @@ body{
 }
 
 .worldviewcontent #body{
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 1vh;
@@ -623,7 +623,7 @@ body{
 }
 
 .worldviewcontent #heading{
-  font-size: 2.5vh;
+  font-size: 27px;
   align-self: center;
   margin-top: 3vh;
   color: #5FCDEF;
@@ -679,13 +679,13 @@ body{
 
 .phantasmagoria42content .project-info{
   color: #8bac0f;
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 1vw;
   margin-top: 1vh;
 }
 
 .phantasmagoria42content #title{
-  font-size: 5vh;
+  font-size: 40px;
   margin-top: 1vh;
   align-self: center;
 
@@ -698,7 +698,7 @@ body{
 }
 
 .phantasmagoria42content #body{
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 1vh;
@@ -714,7 +714,7 @@ body{
 }
 
 .phantasmagoria42content #heading{
-  font-size: 2.5vh;
+  font-size: 27px;
   align-self: center;
   margin-top: 3vh;
   color: #8bac0f;
@@ -787,13 +787,13 @@ body{
 .saucercontent .project-info{
   color: #FFFFFF;
   align-self: baseline;
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 1vw;
   margin-top: 1vh;
 }
 
 .saucercontent #title{
-  font-size: 5vh;
+  font-size: 40px;
   margin-top: 1vh;
   align-self: center;
 
@@ -806,7 +806,7 @@ body{
 }
 
 .saucercontent #body{
-  font-size: 2vh;
+  font-size: 18px;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 1vh;
@@ -822,7 +822,7 @@ body{
 }
 
 .saucercontent #heading{
-  font-size: 2.5vh;
+  font-size: 27px;
   align-self: center;
   margin-top: 3vh;
   color: #FFFFFF;
@@ -886,7 +886,7 @@ body{
 
   .saucercontent #no-mobile-text{
     width: 95vw;
-    font-size: 2vh;
+    font-size: 18px;
     color: #000000;
     font-weight: bold;
     margin-top: 1vh;
@@ -1015,7 +1015,7 @@ body{
 .SIP #innovation-claim{
   display: flex;
   justify-content: center;
-  font-size: 2.5vh;
+  font-size: 27px;
   margin-top: 1vh;
   margin-left: 25vw;
   margin-right: 25vw;
@@ -1033,7 +1033,7 @@ body{
 .SIP #work-in-progress{ /*Temporary*/
   display: flex;
   justify-content: center;
-  font-size: 2.5vh;
+  font-size: 27px;
   margin-top: 10.75vh;
   margin-left: 25vw;
   margin-right: 25vw;
