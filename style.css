@@ -906,10 +906,6 @@ body{
 
 /*UAT Boards*/
 
-.objectives{
-  display: flexbox;
-}
-
 .projects #degree{
   display: flex;
   flex-direction: column;
@@ -951,11 +947,6 @@ body{
 
   margin-bottom: 2vh;
   margin-top: 4vh;
-}
-
-.objectives .projects .proj{
-  margin-top: 4vh;
-  margin-bottom: 1vh;
 }
 
 /*End UAT Boards*/
