@@ -910,23 +910,35 @@ body{
   display: flexbox;
 }
 
-.objectives #degree{
+.projects #degree{
   display: flex;
   flex-direction: column;
   font-size: 3.5vh;
   font-weight: bold;
-  margin-left: 5vw;
   margin-top: 3vh;
   color: #ff7b00;
 
 }
 
-.objectives #degree-hr{
+.projects #degree-hr{
   margin-bottom: 3vh;
-  margin-top: 3vh;;
+  margin-top: 3vh;
+  width: 50vw;
+  color: #ff7b00;
 }
 
-.objectives #objective{
+.projects #boards-project-hr{
+  color: #ff7b00;
+  width: 45vw;
+}
+
+.projects #objective-hr{
+  margin-bottom: 5vh;
+  color: #ebebeb;
+  width: 50vw;
+}
+
+.projects #objective{
   display: flex;
   justify-content: center;
   font-size: 2.75vh;
@@ -936,11 +948,9 @@ body{
   padding-left: 5vw;
   padding-right: 5vw;
   text-align: center;
-}
 
-.objectives #objective-hr{
-  margin-bottom: 5vh;
-  margin-top: 3vh;;
+  margin-bottom: 2vh;
+  margin-top: 4vh;
 }
 
 .objectives .projects .proj{
