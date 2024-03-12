@@ -488,7 +488,7 @@ body{
 /*Etiam*/
 .etiambackground{
   background-color: #0a0a0F;
-  background-image: url("/images/projects/etiam/stars.png");
+  background-image: url("/projects/etiam/images/stars.png");
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -955,12 +955,12 @@ body{
 
 @font-face {
   font-family: glacialIndifference-bold;
-  src: url(images/projects/sip/GlacialIndifference-Bold.otf);
+  src: url(/uat/sip/fonts/GlacialIndifference-Bold.otf);
 }
 
 @font-face {
   font-family: glacialIndifference;
-  src: url(images/projects/sip/GlacialIndifference-Regular.otf);
+  src: url(/uat/sip/fonts/GlacialIndifference-Regular.otf);
 }
 
 
