@@ -129,18 +129,9 @@ body{
   mask-image: url(images/svgs/linkedin.svg);
   -webkit-mask-box-image: url(images/svgs/linkedin.svg);
 }
-.icon-email {
-  mask: url(images/svgs/email.svg);
-  -webkit-mask-box-image: url(images/svgs/email.svg);
-}
-/*.icon-phone {
-  mask-image: url(images/svgs/phone.svg);
-  -webkit-mask-box-image: url(images/svgs/phone.svg);
-}
-*/
-.icon-discord {
-  mask-image: url(images/svgs/discord.svg);
-  -webkit-mask-box-image: url(images/svgs/discord.svg);
+.icon-mastodon {
+  mask-image: url(images/svgs/mastodon.svg);
+  -webkit-mask-box-image: url(images/svgs/mastodon.svg);
 }
 .icon-instagram {
   mask-image: url(images/svgs/instagram.svg);
