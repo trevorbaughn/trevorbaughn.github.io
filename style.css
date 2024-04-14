@@ -962,6 +962,15 @@ body{
   font-family: glacialIndifference;
 }
 
+.SIP a{
+  text-decoration: none;
+}
+
+.SIP #find-on-github:hover{
+  color: #efefef;
+  transition: 200ms linear;
+}
+
 .SIP #Title{
   display: flex;
   justify-content: center;
@@ -979,18 +988,10 @@ body{
   margin-bottom: 3vh;
 }
 
-.SIP .responsibilitybar{
+.SIP .responsibility{
   display: flex;
   justify-content: center;
-}
-
-.SIP .responsibilitybar img{
-  width: 17vw;
-  height: 4vh;
-}
-
-.SIP .responsibilitybar #top{
-  margin-top: 5vh;
+  
 }
 
 .SIP #sip-title-hr{
@@ -1027,7 +1028,7 @@ body{
   margin-bottom: 5vh;
 }
 
-.SIP #work-in-progress{ /*Temporary*/
+.SIP #find-on-github{
   display: flex;
   justify-content: center;
   font-size: 27px;
@@ -1036,6 +1037,9 @@ body{
   margin-right: 25vw;
   margin-bottom: 5vh;
   text-align: center;
+
+  color: #e14566;
+  text-decoration: none;
 }
 
 /*End UAT SIP*/
