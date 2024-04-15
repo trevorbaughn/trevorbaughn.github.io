@@ -210,7 +210,7 @@ body{
 .headshotcontacts{
   height: 85vh;
   width: 75vw;
-  background: url(images/headshot2.png) no-repeat 0 0;
+  background: url(/contact/images/headshot2.png) no-repeat 0 0;
   background-size: cover;
   transform: scaleX(-1);
   display: flex;
@@ -991,7 +991,6 @@ body{
 .SIP .responsibility{
   display: flex;
   justify-content: center;
-  
 }
 
 .SIP #sip-title-hr{
@@ -1043,4 +1042,16 @@ body{
 
 }
 
+@media only screen and (max-width: 600px){
+  .SIP .responsibility{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+  }
+  
+  .SIP #find-on-github{
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+}
 /*End UAT SIP*/
