@@ -960,16 +960,14 @@ body{
   display: flexbox;
   align-items: center;
   font-family: glacialIndifference;
+
+  text-align: center;
 }
 
 .SIP a{
   text-decoration: none;
 }
 
-.SIP #find-on-github:hover{
-  color: #efefef;
-  transition: 200ms linear;
-}
 
 .SIP #Title{
   display: flex;
@@ -1007,6 +1005,7 @@ body{
   font-size: 3vh;
   font-family: glacialIndifference-bold;
   color: #e14566;
+  
 }
 
 .SIP #innovation-claim{
@@ -1017,21 +1016,26 @@ body{
   margin-left: 25vw;
   margin-right: 25vw;
   text-align: center;
+  margin-bottom: 2vh;
 }
 
 .SIP #sip-hr{
   margin-left: 25vw;
   margin-right: 25vw;
   color: #ff7b00;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+.SIP iframe{
+  color: #00000000;
 }
 
 .SIP #find-on-github{
   display: flex;
   justify-content: center;
   font-size: 27px;
-  margin-top: 10.75vh;
+  margin-top: 5vh;
   margin-left: 25vw;
   margin-right: 25vw;
   margin-bottom: 5vh;
@@ -1039,7 +1043,10 @@ body{
 
   color: #e14566;
   text-decoration: none;
-
+}
+.SIP #find-on-github:hover{
+  color: #efefef;
+  transition: 200ms linear;
 }
 
 @media only screen and (max-width: 600px){
