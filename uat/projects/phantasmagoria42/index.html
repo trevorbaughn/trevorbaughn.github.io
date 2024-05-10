@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Trevor Baughn's Website">
+    <meta name="keywords" content="Game Developer, Gamedev, Game dev, Portfolio, Trevor, Baughn, Trevor Baughn, Game Programmer, Game Designer, Technical Designer">
+    <meta name="author" content="Trevor Baughn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href = "/uat/style.css">
+
+    <title>Trevor Baughn's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="name">
+            <p id="Trevor">Trevor Baughn</p>
+            <p id="Titles">Technical Designer</p>
+        </div>
+        <div class="navlist">
+            <!--<a href="index.html"><span id="navbutton">Home</span></a>-->
+            <a href="/projects"><span id="navbutton">Projects</span></a>
+            <!--<a href="#blog"><span id="navbutton">Blog</span></a>-->
+            <!--<a href="#resume"><span id="navbutton">Resumé</span></a>-->
+            <a href="/contact"><span id="navbutton">Contact</span></a>
+            <!--UAT Boards.  Uncomment this line when it is time to present this.-->
+            <!--<a href="#uatboards"><span id="navbutton">UAT Boards</span></a>-->
+
+        </div>
+    </div>
+    <div class="headerblock"></div>
+    <div class="phantasmagoria42background">
+        <div class="phantasmagoria42content">
+
+            <div class="project-info">
+                <p id="date">Date: September 2022</p>
+                <p id="role">Role: Artist / Designer</p>
+                <p id="jam">Jam: UAT Founder's Game Jam</p>
+                <p id="time">Time-Limit: 45 Hours</p>
+                <p id="type">Theme: Spring</p>
+                <p id="awards">Awards: Most Technical, Best Design</p>
+            </div>
+
+            <p id="title">Phantasmagoria '42</p>
+
+            <p id="body">
+                &emsp;Become a migrating butterfly flying through smog clouds as you migrate in the Spring of 1942. 
+                WWII is raging on, and you start to wonder... are you really a butterfly? Or is it all just phantasmagorical wonder... 
+            </p>
+
+            <iframe src="https://itch.io/embed/1718466?linkback=true&amp;bg_color=0f380f&amp;fg_color=9bbc0f&amp;link_color=8bac0f&amp;border_color=306230" width="552" height="167" frameborder="0" id="itchlink"><a href="https://trevorbaughn.itch.io/phantasmagoria-42">Phantasmagoria '42 by Trevor Baughn</a></iframe>
+            
+            <hr id="phantasmagoria42-hr">
+            
+            <p id="body">
+                &emsp;My role in the development of <em>Phantasmagoria '42</em> was purely that of an artist for the most part, though I did help conceptualize
+                and flesh out a few design decisions.
+            </p>
+
+
+            <hr id="phantasmagoria42-hr">
+
+            <p id="heading">
+                The Player Butterfly
+            </p>
+
+            <div class="butterfly">
+                <span class="hovertext" title="Butterfly flying animation.">
+                    <img id="phantasmagoria42" src="/projects/phantasmagoria42/images/butterfly.gif" alt="Butterfly flying animation.">
+                </span>   
+            </div>
+
+            <p id="body">
+                &emsp;<em>Phantasmagoria '42</em> has a few smaller things process-wise.  For me, I've generally tended to struggle to animate
+                living creatures for a long time, but had been getting better.  As such, I wanted to use this game jam to
+                get over that and do well with living creatures.  I started with our player animation, a butterfly.
+            </p>
+
+            <p id="body">
+                &emsp;For animating the butterfly, I knew if I was to stick to the 4 color pallete of the Gameboy, and have room to
+                give the background detail too, my best bet was to only use 2 colors.  I opted to make it darker so
+                the backgrounds could be lighter.  The enemies were going to be crows, so I used the lighter of the two colors for
+                the wings as they were larger, so that the crows could be mostly darker and there would be a difference in color.  
+                For the animation, I simply exagerrated a wing flap and used secondary motion on the body following it for a more
+                life-like feeling.
+            </p>
+
+            <p id="heading">
+                The Enemy Crows
+            </p>
+
+            <div class="rowpics">
+                <span class="hovertext" title="Crow idle flying animation.">
+                    <img id="phantasmagoria42" src="/projects/phantasmagoria42/images/crow_fly.gif" alt="Crow idle flying animation.">
+                </span>
+
+                <span class="hovertext" title="Crow death animation.">
+                    <img id="phantasmagoria42" src="/projects/phantasmagoria42/images/crow_spiral.gif" alt="Crow death animation.">
+                </span>
+            </div>
+
+            <p id="body">
+                &emsp;I then moved onto the crows.  I opted to make them 4x the butterfly size as that would make them an easier target,
+                something I felt would be nice considering the general difficulty we were aiming for as a team.  It also just sorta made
+                sense for a crow to be much larger than a butterfly.  Animating the crows took a good chunk of time given they needed
+                more animations than anything else in the game (and a lead-in death animation that was cut).  I used a lot of squash & stretch, secondary motion, and general exagerrated motion
+                here as well.
+            </p>
+
+            <p id="heading">
+                The Backgrounds
+            </p>
+
+            <p id="body">
+                &emsp;The backgrounds used lighter colors and I had to get detail in with two colors.  I knew the backgrounds should be
+                smog that was parallaxed in some way and was originally planning on making simple smog clouds that could
+                be spawned and go left from the right.  I felt that was too easy though, and opted to go with 
+                full-width parallaxed backgrounds that would randomize and be flipable for extra variety.  I did two layers
+                of parallax too to make it look extra cool and like the player is flying through a stream of smog.
+            </p>
+
+            <div class="fullscreengif">
+                <span class="hovertext" title="Phantasmagoria '42 Gameplay">
+                    <img id="phantasmagoria42" src="/projects/phantasmagoria42/images/phantasmagoria42.gif" alt="Phantasmagoria '42 Gameplay">
+                </span>
+            </div>
+
+            <p id="body">
+                &emsp;The top text bar was made darker and as such, the butterfly and crow are blocked off from being able to go up to 
+                that part of the screen (despite what the classic games this is inspired by allowed).
+            </p>
+
+            <p><br></p>
+            
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <p id = "copyright">©2024 Trevor Baughn - All Rights Reserved</p>
+        <a href="/contact"><span id="contact">Contact | </span></a>
+        <a href="https://www.linkedin.com/in/trevor-baughn/" target="_blank" rel="noopener noreferrer">
+            <span class="icon footericon icon-linkedin"></span>
+        </a>
+        <a href="https://mastodon.social/@trevorbaughn/" target="_blank" rel="noopener noreferrer">
+            <span class="icon footericon icon-mastodon"></span>
+        </a>
+        <a href="https://www.instagram.com/trevorbaughn/" target="_blank" rel="noopener noreferrer">
+            <span class="icon footericon icon-instagram"></span>
+        </a>
+        <div class = "rightpadding"></div>
+    </div>
+
+</body>
+
+
+</html>
