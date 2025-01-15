@@ -11,6 +11,11 @@ body{
   flex-direction: column;
 }
 
+@font-face {
+  font-family: glacialIndifference;
+  src: url(/uat/sip/fonts/GlacialIndifference-Regular.otf);
+}
+
 /*Header*/
 
 .header{
@@ -227,87 +232,115 @@ body{
   flex: 1;
 }
 
-.headshotcontacts .contact-text{
+.headshotcontacts .contact-bar{
   display: flex;
   flex: 1;
   transform: scaleX(-1);
   justify-content: center;
   position: relative;
-  display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: rgba(0,0,0,0.5);
 }
 
-#contactme{
+.headshotcontacts .contact-bar .centered-contact-elements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshotcontacts .contact-bar .contact-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headshotcontacts .contacts{
   margin-bottom: 2vh;
+}
+
+#contactme{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
   font-size: 36px;
   color: #ff7b00;
   font-weight: bold;
 }
 
-.headshotcontacts .contactform{
-  background-color: rgba(0,0,0,0.3);
-  color: #ebebeb;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  border-radius: 0.5em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 2vh;
-  width: 15vw;
-  height: 40vh;
-}
 
-.headshotcontacts .contactform form{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  font-size: 18px;
-}
-
-.headshotcontacts .contactform .name{
-  display: flex;
-  flex-direction: column;
-}
-
-.headshotcontacts .contactform input[type="text"], textarea{
-  background-color: #ebebeb;
-  margin-bottom: 1vh;
-  resize: none;
-  border: 0.15em solid black;
-  border-radius: 0.25em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-}
-
-.headshotcontacts .contactform input[type="submit"]{
-  border: none;
-  border-radius: 0.5em;
-  background-color: black;
-  color: #bebebe;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 5vh;
-  width: 5em;
-}
-
-.headshotcontacts .contactform input[type="submit"]:hover{
-  transition: 200ms linear;
+.contact #contact-small-hr{
   color: #ff7b00;
-  cursor: pointer;
-  background-color: #191E26;
+  width: 7vw;
+}
+.contact #contact-big-hr{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: #ff7b00;
+  width: 20vw;
 }
 
-.headshotcontacts .contact-text .contacts{
+#emailme{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-size: 18px;
+  color: #ebebeb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+#emailcontact{
+  margin-bottom: 2vh;
+  font-size: 18px;
+  color: #ebebeb;
+  font-family: glacialIndifference;
+  text-decoration: none;
+}
+
+#emailcontact:hover{
+  transition: 300ms;
+  color: #ff7b00;
+}
+
+.headshotcontacts .contact-bar .contacts{
   display: flex;
   width: 15vw;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.headshotcontacts .contact-bar .commission-text{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+#commissionme{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-size: 24px;
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.commission-body{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+#commission-type-text{
+  margin-top: 1vh;
+  font-size: 18px;
+  color: #ebebeb;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .headshotcontsicon{
@@ -316,7 +349,7 @@ body{
   margin-left: 0.25vw;
 }
 
-.headshotcontacts .contact-text img{
+.headshotcontacts .contact-bar img{
   width: 0px;
 }
 
@@ -324,10 +357,6 @@ body{
   .headshotcontacts{
     width: 100vw;
     background: none;
-  }
-
-  .headshotcontacts .contactform{
-    width: 90vw;
   }
 
   .headshotcontacts .middlepadding{
@@ -338,13 +367,17 @@ body{
     display: contents; /*done to remove padding*/
   }
 
-  .headshotcontacts .contact-text img{
+  .headshotcontacts .contact-bar .centered-contact-elements{
+    flex: 1;
+  }
+
+  .headshotcontacts .contact-bar img{
     width: 50vw;
     border-radius: 55px;
     margin-bottom: 1vh;
   }
   
-  .headshotcontacts .contact-text .contacts{
+  .headshotcontacts .contact-bar .contacts{
     width: 50vw;
   }
   
