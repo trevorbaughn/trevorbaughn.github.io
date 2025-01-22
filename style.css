@@ -143,6 +143,26 @@ body{
   -webkit-mask-box-image: url(images/svgs/github.svg);
 }
 
+.icon-artist {
+  mask-image: url(images/svgs/paintbrush.svg);
+  -webkit-mask-box-image: url(images/svgs/paintbrush.svg)
+}
+
+.icon-programmer {
+  mask-image: url(images/svgs/codetag.svg);
+  -webkit-mask-box-image: url(images/svgs/codetag.svg)
+}
+
+.icon-designer {
+  mask-image: url(images/svgs/cardsanddie.svg);
+  -webkit-mask-box-image: url(images/svgs/cardsanddie.svg)
+}
+
+.icon-projectlead {
+  mask-image: url(images/svgs/person.svg);
+  -webkit-mask-box-image: url(images/svgs/person.svg)
+}
+
 /*Footer*/
 
 .footer{
@@ -268,7 +288,6 @@ body{
   font-weight: bold;
 }
 
-
 .contact #contact-small-hr{
   color: #ff7b00;
   width: 7vw;
@@ -288,8 +307,6 @@ body{
   font-weight: bold;
   text-decoration: none;
 }
-
-
 
 #emailcontact{
   margin-bottom: 2vh;
@@ -455,6 +472,10 @@ body{
   margin-bottom: 1vh;
 }
 
+.projects .proj .project-info #role{
+  font-size: 18px;
+}
+
 .projects .proj #project-shortdesc{
   font-size: 18px;
 }
@@ -483,6 +504,24 @@ body{
   margin-left: 0.5vw;
   margin-right: 0.5vw;
   font-size: 18px;
+}
+
+.project-info-icon{
+  width: 29px;
+  height: 29px;
+  vertical-align: -15px;
+  margin-bottom: 7px;
+}
+
+[data-tooltip]:hover::after {
+  display: inline-block;
+  position: absolute;
+  content: attr(data-tooltip);
+  border-radius: 10px;
+  background: black;
+  color:#bebebe;
+  padding: .25em;
+  margin-top: -24px;
 }
 
 @media only screen and (max-width: 600px){
