@@ -34,6 +34,13 @@ body{
   height: 8vh;
 }
 
+:target::before { /*hacky fix to fix jump link anchor*/
+  content: '';
+  display: block;
+  height:      8vh;
+  margin-top: -8vh;
+}
+
 .header .name{
   flex-direction: column;
   display: flex;
