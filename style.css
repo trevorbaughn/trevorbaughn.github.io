@@ -99,6 +99,30 @@ body{
   transition: 200ms linear;
 }
 
+#tableofcontents{
+  font-size: 24px;
+}
+.jumpnav{
+  position: fixed;
+  left:0;
+  margin-top: 15vh;
+  margin-left: 2vw;
+  display:flex;
+  flex-direction: column;
+}
+.jumpnav #jumpnavbutton{
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+.jumpnav #bigjumpnavbutton{
+  font-size: 24px;
+  text-decoration: underline;
+}
+.jumpnav a{
+  color: #ff7b00;
+}
+
 @media only screen and (max-width: 600px){
   .header .name{
     width: 50vw;
@@ -458,7 +482,7 @@ body{
   margin-left: 1vw;
 }
 
-.projects .proj #project-title{
+.projects .proj .project-title{
   font-size: 40px;
   color: #ff7b00;
 }
@@ -535,7 +559,7 @@ body{
     width: 85vw;
   }
 
-  .projects .proj #project-title{
+  .projects .proj .project-title{
     align-self: center;
   }
 
