@@ -194,6 +194,11 @@ body{
   -webkit-mask-box-image: url(images/svgs/person.svg)
 }
 
+.icon-solo {
+  mask-image: url(images/svgs/star.svg);
+  -webkit-mask-box-image: url(images/svgs/star.svg)
+}
+
 /*Footer*/
 
 .footer{
@@ -432,6 +437,147 @@ body{
 }
 
 /*End Contact*/
+
+
+/*Blog*/
+
+.outside-background{
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogposts .page-title{
+  color: #EBEBEB;
+  font-size: 40px;
+  margin-top: 2vh;
+}
+
+.blogposts{
+  display: flex;
+  flex-direction: column;  
+  background-color: #191E26;
+  width: 60vw;
+  align-items: center;
+}
+
+.blogposts #project-hr{
+  color: #ff7b00;
+  width: 45vw;
+}
+
+.blogposts .blogpost{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 55vw;
+
+}
+
+.blogposts img{
+  width: 35vh;
+  height: 28vh;
+  border: 0.2em solid black;
+  border-radius: 2.5%;
+}
+
+.blogposts .blogpost .text{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-left: 1vw;
+}
+
+.blogposts .blogpost .post-title{
+  font-size: 40px;
+  color: #ff7b00;
+}
+
+.blogposts .blogpost .post-info{
+  display: flex;
+  flex-direction: column;
+
+  color: #bebebe;
+  font-size: 18px;
+  margin-bottom: 1vh;
+}
+
+.blogposts .blogpost #post-shortdesc{
+  font-size: 18px;
+}
+
+.blogposts .blogpost .links{
+  display: flex;
+  flex-direction: row;
+}
+
+.blogposts .blogpost .links #linkmore{
+  color: #bebebe;
+  text-decoration: none;
+  margin-top: 1vh;
+  font-size: 18px;
+}
+
+.blogposts .blogpost .links #linkmore:hover{
+  transition: 100ms;
+  color: #ff7b00;
+}
+
+.blogposts .blogpost .links #linkmoreseparator{
+  color: #bebebe;
+  text-decoration: none;
+  margin-top: 1vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  font-size: 18px;
+}
+
+.post-info-icon{
+  width: 29px;
+  height: 29px;
+  vertical-align: -15px;
+  margin-bottom: 7px;
+}
+
+[data-tooltip]:hover::after {
+  display: inline-block;
+  position: absolute;
+  content: attr(data-tooltip);
+  border-radius: 10px;
+  background: black;
+  color:#bebebe;
+  padding: .25em;
+  margin-top: -24px;
+}
+
+@media only screen and (max-width: 600px){
+  .projects{
+    width: 100vw;
+  }
+  
+  .projects .proj{
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+  }
+
+  .projects .proj .project-title{
+    align-self: center;
+  }
+
+  .projects .proj .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/*End Blog*/
 
 
 /*Projects*/
