@@ -521,6 +521,11 @@ body{
   margin-bottom: 7px;
 }
 
+.post-info #tags{
+  font-size: 24px;
+  
+}
+
 [data-tooltip]:hover::after {
   display: inline-block;
   position: absolute;
@@ -539,6 +544,7 @@ body{
   margin-right: 2vw;
   display:flex;
   flex-direction: column;
+  text-align: right;
 }
 
 .taglist #jumpnavbutton{
@@ -549,7 +555,7 @@ body{
   color: #ff7b00;
 }
 
-#tags{
+.taglist #tags{
   font-size: 24px;
 }
 
