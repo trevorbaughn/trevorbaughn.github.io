@@ -106,30 +106,6 @@ body{
   transition: 200ms linear;
 }
 
-#tableofcontents{
-  font-size: 24px;
-}
-.jumpnav{
-  position: fixed;
-  left:0;
-  margin-top: 15vh;
-  margin-left: 2vw;
-  display:flex;
-  flex-direction: column;
-}
-.jumpnav #jumpnavbutton{
-  font-size: 18px;
-  text-decoration: underline;
-  margin-left: 20px;
-}
-.jumpnav #bigjumpnavbutton{
-  font-size: 24px;
-  text-decoration: underline;
-}
-.jumpnav a{
-  color: #ff7b00;
-}
-
 @media only screen and (max-width: 600px){
   .header .name{
     width: 50vw;
@@ -480,8 +456,8 @@ body{
 }
 
 .blogposts img{
-  width: 35vh;
-  height: 28vh;
+  width: 26.25vh;
+  height: 21vh;
   border: 0.2em solid black;
   border-radius: 2.5%;
 }
@@ -495,7 +471,7 @@ body{
 }
 
 .blogposts .blogpost .post-title{
-  font-size: 40px;
+  font-size: 32px;
   color: #ff7b00;
 }
 
@@ -517,19 +493,19 @@ body{
   flex-direction: row;
 }
 
-.blogposts .blogpost .links #linkmore{
+.blogposts .blogpost #linkmore{
   color: #bebebe;
   text-decoration: none;
   margin-top: 1vh;
   font-size: 18px;
 }
 
-.blogposts .blogpost .links #linkmore:hover{
+.blogposts .blogpost #linkmore:hover{
   transition: 100ms;
   color: #ff7b00;
 }
 
-.blogposts .blogpost .links #linkmoreseparator{
+.blogposts .blogpost #linkmoreseparator{
   color: #bebebe;
   text-decoration: none;
   margin-top: 1vh;
@@ -556,25 +532,89 @@ body{
   margin-top: -24px;
 }
 
+.taglist{
+  position: fixed;
+  right:0;
+  margin-top: 15vh;
+  margin-right: 2vw;
+  display:flex;
+  flex-direction: column;
+}
+
+.taglist #jumpnavbutton{
+  font-size: 18px;
+  text-decoration: underline;
+}
+.taglist a{
+  color: #ff7b00;
+}
+
+#tags{
+  font-size: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkboxtag {
+  cursor: pointer;
+  color: #ff7b00;
+  font-size: 18px;
+  text-decoration: underline;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.checkboxtag:before {
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .checkboxtag {
+  color: white;
+}
+
+input:checked + .checkboxtag:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+
+
 @media only screen and (max-width: 600px){
-  .projects{
+  .blogposts{
     width: 100vw;
   }
   
-  .projects .proj{
+  .blogposts .blogpost{
     flex-direction: column;
     align-items: center;
     width: 85vw;
   }
 
-  .projects .proj .project-title{
+  .blogposts .blogpost .post-title{
     align-self: center;
   }
 
-  .projects .proj .links{
+  .blogposts .blogpost .links{
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .taglist{
+    display: none;
   }
 }
 /*End Blog*/
@@ -701,6 +741,31 @@ body{
   margin-top: -24px;
 }
 
+.jumpnav{
+  position: fixed;
+  left:0;
+  margin-top: 15vh;
+  margin-left: 2vw;
+  display:flex;
+  flex-direction: column;
+}
+.jumpnav #jumpnavbutton{
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+.jumpnav #bigjumpnavbutton{
+  font-size: 24px;
+  text-decoration: underline;
+}
+.jumpnav a{
+  color: #ff7b00;
+}
+
+#tableofcontents{
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 600px){
   .projects{
     width: 100vw;
@@ -720,6 +785,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .jumpnav{
+    display: none;
   }
 }
 
@@ -1189,6 +1258,11 @@ body{
   margin-top: 4vh;
 }
 
+.projects .proj #project-title{
+  font-size: 40px;
+  color: #ff7b00;
+}
+
 /*End UAT Boards*/
 
 /*UAT SIP*/
@@ -1197,12 +1271,6 @@ body{
   font-family: glacialIndifference-bold;
   src: url(/uat/sip/fonts/GlacialIndifference-Bold.otf);
 }
-
-@font-face {
-  font-family: glacialIndifference;
-  src: url(/uat/sip/fonts/GlacialIndifference-Regular.otf);
-}
-
 
 .SIP{
   background-color: #21133d;
