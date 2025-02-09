@@ -439,9 +439,19 @@ body{
   align-items: center;
 }
 
-.blogposts #project-hr{
+.blogposts .blogpost-hr{
   color: #ff7b00;
   width: 45vw;
+  align-self: center;
+}
+
+.blogshowthing{
+  flex:1;
+}
+
+.blogposts .blogpostwrapper{
+  display: flex;
+  flex-direction: column;
 }
 
 .blogposts .blogpost{
@@ -505,15 +515,6 @@ body{
   color: #ff7b00;
 }
 
-.blogposts .blogpost #linkmoreseparator{
-  color: #bebebe;
-  text-decoration: none;
-  margin-top: 1vh;
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  font-size: 18px;
-}
-
 .post-info-icon{
   width: 29px;
   height: 29px;
@@ -523,8 +524,8 @@ body{
 
 .post-info #tags{
   font-size: 24px;
-  
 }
+
 
 [data-tooltip]:hover::after {
   display: inline-block;
@@ -595,8 +596,44 @@ input:checked + .checkboxtag:before {
   transform: translateX(26px);
 }
 
+/*TAG LISTS*/
 
+body:has([value="test"]:not(:checked)) .blogposts .test,
+body:has([value="testtest"]:not(:checked)) .blogposts .testtest,
+body:has([value="testatesttest"]:not(:checked)) .blogposts .testatesttest,
+body:has([value="testettytesttesttesttesttester"]:not(:checked)) .blogposts .testettytesttesttesttesttester,
+body:has([value="testerssss"]:not(:checked)) .blogposts .testerssss,
+body:has([value="gamestest"]:not(:checked)) .blogposts .gamestest,
+body:has([value="jamgamestest"]:not(:checked)) .blogposts .jamgamestest,
+body:has([value="testing"]:not(:checked)) .blogposts .testing{
+  display: none;
+}
 
+body:has([value="test"]:checked) .blogposts .test,
+body:has([value="testtest"]:checked) .blogposts .testtest,
+body:has([value="testatesttest"]:checked) .blogposts .testatesttest,
+body:has([value="testettytesttesttesttesttester"]:checked) .blogposts .testettytesttesttesttesttester,
+body:has([value="testerssss"]:checked) .blogposts .testerssss,
+body:has([value="gamestest"]:checked) .blogposts .gamestest,
+body:has([value="jamgamestest"]:checked) .blogposts .jamgamestest,
+body:has([value="testing"]:checked) .blogposts .testing
+{
+  display: flex;
+}
+
+body:has([value="test"]:not(:checked)):has(
+  [value="testtest"]:not(:checked)):has(
+  [value="testatesttest"]:not(:checked)):has(
+  [value="testettytesttesttesttesttester"]:not(:checked)):has(
+  [value="testerssss"]:not(:checked)):has(
+  [value="gamestest"]:not(:checked)):has(
+  [value="jamgamestest"]:not(:checked)):has(
+  [value="testing"]:not(:checked)) .blogposts .blogshowthing
+{
+  display: flex;
+}
+
+/*END TAG LISTS*/
 
 @media only screen and (max-width: 600px){
   .blogposts{
@@ -650,7 +687,7 @@ input:checked + .checkboxtag:before {
   align-items: center;
 }
 
-.projects #project-hr{
+.projects .project-hr{
   color: #ff7b00;
   width: 45vw;
 }
