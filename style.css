@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #191E26;
+  background-color: #000000;
   color:#EBEBEB;
   display: flex;
   flex-direction: column;
@@ -417,12 +417,9 @@ body{
 
 /*Blog*/
 
-.outside-background{
-  background-color: black;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.blog-inside-background{
+  justify-self: center;
+  align-self: center;
 }
 
 .blogposts .page-title{
@@ -665,12 +662,9 @@ body:has([value="test"]:not(:checked)):has(
 
 /*Projects*/
 
-.outside-background{
-  background-color: black;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.proj-outside-background{
+  justify-self: center;
+  align-self: center;
 }
 
 .projects .page-title{
