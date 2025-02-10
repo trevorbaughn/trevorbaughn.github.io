@@ -702,11 +702,16 @@ body:has([value="test"]:not(:checked)):has(
 
 }
 
-.projects img{
+.projects .proj img{
   width: 35vh;
   height: 28vh;
   border: 0.2em solid black;
   border-radius: 2.5%;
+}
+
+.projects .proj .imagelink{
+  width: 35vh;
+  height: 28vh;
 }
 
 .projects .proj .text{
