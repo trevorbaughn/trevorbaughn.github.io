@@ -491,6 +491,11 @@ body{
   margin-bottom: 1vh;
 }
 
+.blogposts .blogpost .post-info #tags{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
 .blogposts .blogpost #post-shortdesc{
   font-size: 18px;
 }
