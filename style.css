@@ -165,6 +165,11 @@ body{
   -webkit-mask-box-image: url(images/svgs/cardsanddie.svg)
 }
 
+.icon-designer {
+  mask-image: url(images/svgs/cardsanddie.svg);
+  -webkit-mask-box-image: url(images/svgs/cardsanddie.svg)
+}
+
 .icon-projectlead {
   mask-image: url(images/svgs/person.svg);
   -webkit-mask-box-image: url(images/svgs/person.svg)
