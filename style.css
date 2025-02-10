@@ -595,25 +595,25 @@ input:checked + .checkboxtag:before {
 
 /*TAG LISTS*/
 
-body:has([value="test"]:not(:checked)) .blogposts .test,
-body:has([value="testtest"]:not(:checked)) .blogposts .testtest,
-body:has([value="testatesttest"]:not(:checked)) .blogposts .testatesttest,
-body:has([value="testettytesttesttesttesttester"]:not(:checked)) .blogposts .testettytesttesttesttesttester,
-body:has([value="testerssss"]:not(:checked)) .blogposts .testerssss,
-body:has([value="gamestest"]:not(:checked)) .blogposts .gamestest,
-body:has([value="jamgamestest"]:not(:checked)) .blogposts .jamgamestest,
-body:has([value="testing"]:not(:checked)) .blogposts .testing{
+body:has([value="test"]:not(:checked)) .blogpostwrap .test,
+body:has([value="testtest"]:not(:checked)) .blogpostwrap .testtest,
+body:has([value="testatesttest"]:not(:checked)) .blogpostwrap .testatesttest,
+body:has([value="testettytesttesttesttesttester"]:not(:checked)) .blogpostwrap .testettytesttesttesttesttester,
+body:has([value="testerssss"]:not(:checked)) .blogpostwrap .testerssss,
+body:has([value="gamestest"]:not(:checked)) .blogpostwrap .gamestest,
+body:has([value="jamgamestest"]:not(:checked)) .blogpostwrap .jamgamestest,
+body:has([value="testing"]:not(:checked)) .blogpostwrap .testing{
   display: none;
 }
 
-body:has([value="test"]:checked) .blogposts .test,
-body:has([value="testtest"]:checked) .blogposts .testtest,
-body:has([value="testatesttest"]:checked) .blogposts .testatesttest,
-body:has([value="testettytesttesttesttesttester"]:checked) .blogposts .testettytesttesttesttesttester,
-body:has([value="testerssss"]:checked) .blogposts .testerssss,
-body:has([value="gamestest"]:checked) .blogposts .gamestest,
-body:has([value="jamgamestest"]:checked) .blogposts .jamgamestest,
-body:has([value="testing"]:checked) .blogposts .testing
+body:has([value="test"]:checked) .blogpostwrap .test,
+body:has([value="testtest"]:checked) .blogpostwrap .testtest,
+body:has([value="testatesttest"]:checked) .blogpostwrap .testatesttest,
+body:has([value="testettytesttesttesttesttester"]:checked) .blogpostwrap .testettytesttesttesttesttester,
+body:has([value="testerssss"]:checked) .blogpostwrap .testerssss,
+body:has([value="gamestest"]:checked) .blogpostwrap .gamestest,
+body:has([value="jamgamestest"]:checked) .blogpostwrap .jamgamestest,
+body:has([value="testing"]:checked) .blogpostwrap .testing
 {
   display: flex;
 }
@@ -625,7 +625,7 @@ body:has([value="test"]:not(:checked)):has(
   [value="testerssss"]:not(:checked)):has(
   [value="gamestest"]:not(:checked)):has(
   [value="jamgamestest"]:not(:checked)):has(
-  [value="testing"]:not(:checked)) .blogposts .blogshowthing
+  [value="testing"]:not(:checked)) .blogpostwrap .blogshowthing
 {
   display: flex;
 }
