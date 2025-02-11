@@ -899,6 +899,15 @@ body:has([value="test"]:not(:checked)):has(
   width: 50vw;
 }
 
+.etiampagecontent .icon{
+  background-color: #31FF00;
+}
+
+.etiampagecontent .icon:hover,
+.etiampagecontent .icon:focus {
+  background: #ff7b00;
+}
+
 .etiampagecontent .project-info{
   font-size: 18px;
   color: #31FF00;
@@ -983,6 +992,14 @@ body:has([value="test"]:not(:checked)):has(
   background-color: #000000;
 }
 
+.worldviewcontent .icon{
+  background-color: #5FCDEF;
+}
+
+.worldviewcontent .icon:hover,
+.worldviewcontent .icon:focus {
+  background: #ff7b00;
+}
 
 .worldviewcontent .project-info{
   color: #5FCDEF;
@@ -1074,6 +1091,14 @@ body:has([value="test"]:not(:checked)):has(
   background-color: #0f380f;
 }
 
+.phantasmagoria42content .icon{
+  background-color: #8bac0f;
+}
+
+.phantasmagoria42content .icon:hover,
+.phantasmagoria42content .icon:focus {
+  background: #ff7b00;
+}
 
 .phantasmagoria42content .project-info{
   color: #8bac0f;
