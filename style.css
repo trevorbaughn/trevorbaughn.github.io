@@ -861,6 +861,16 @@ body:has([value="test"]:not(:checked)):has(
     justify-content: center;
   }
 
+  .projects .proj img{
+    width: 70vw;
+    height: 56vw;
+  }
+
+  .projects .proj .imagelink{
+    width: 70vw;
+    height: 56vw;
+  }
+
   .jumpnav{
     display: none;
   }
