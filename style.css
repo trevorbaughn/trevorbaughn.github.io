@@ -246,11 +246,12 @@ body{
 @media only screen and (max-width: 600px){
   .footer{
     flex-direction: column-reverse;
-    height: 50px;
+    height: 70px;
   }
 
   .footer .contact{
     margin-bottom: 5px;
+    margin-top: 5px;
   }
 
   .footer #copyright{
