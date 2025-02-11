@@ -205,6 +205,10 @@ body{
   margin-left: 1vw;
 }
 
+.footer .contact{
+  flex-direction: row;
+}
+
 .footer #contact{
   color: #EBEBEB;
   font-size: 18px;
@@ -246,7 +250,6 @@ body{
   }
 
   .footer .contact{
-    flex-direction: row;
     margin-bottom: 5px;
   }
 
